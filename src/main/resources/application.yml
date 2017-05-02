@@ -1,0 +1,21 @@
+### web
+server:
+  port: 9090
+  context-path: /
+  
+spring: 
+  application: 
+    name: chat-websocket-web
+  mvc: 
+    view: 
+      prefix: /webpages/
+      suffix: 
+
+
+### logs
+logging.level.root: INFO
+#logging.level.org.springframework.web=DEBUG
+logging.file: /data/logs/newsdoc/newsdoc.log
+
+###====[customer]=====###
+upload.image.path: /upimgs

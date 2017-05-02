@@ -1,0 +1,15 @@
+div{position:relative;border-radius:6px;}
+ul{list-style-type:none;}
+
+.btn_extends,a{
+	background: rgba(0, 0, 0, 0) url("../images/left_navbj.gif") repeat-x scroll 0 0;
+	border: 1px solid #abc; border-radius: 5px;height: 28px;margin: 6px; width:auto; min-width:60px; color:white;
+}
+
+.btn_extends:hover{
+	color:#f39700;
+}
+
+.btn_extends:active{
+	background: rgba(0, 0, 0, 0) url("../images/navbg.png") repeat scroll 0 0;color:#f39700;
+}
